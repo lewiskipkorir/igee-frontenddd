@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Igee.place - Feed</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/app.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Igee.place</h1>
+    <nav>
+      <a href="feed.html">Feed</a>
+      <a href="messages.html">Messages</a>
+      <a href="profile.html">Profile</a>
+      <a href="about.html">About</a>
+      <a href="https://facebook.com" target="_blank">Facebook</a>
+      <a href="https://instagram.com" target="_blank">Instagram</a>
+      <a href="https://wa.me/254714729025" target="_blank">WhatsApp</a>
+    </nav>
+  </header>
+
+  <section class="stories">
+    <div class="story">+</div>
+    <div class="story">A</div>
+    <div class="story">B</div>
+    <div class="story">C</div>
+  </section>
+
+  <section class="create-post">
+    <textarea placeholder="What's on your mind?" id="postContent"></textarea>
+    <button onclick="createPost()">Post</button>
+  </section>
+
+  <section id="feed" class="feed"></section>
+</body>
+</html>
